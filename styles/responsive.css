@@ -1,0 +1,36 @@
+/*
+Description: responsive css
+Author: zhe xia
+Version: 1.0
+*/
+
+/*------------------------------------------------------------------
+[Max Width: 979px]
+*/
+@media (max-width: 979px) {
+}
+/* Extra small devices (phones, up to 480px) */
+/* No media query since this is the default in Bootstrap */
+@media(max-width:768px) {
+
+}
+
+@media(max-width:1200px) {
+
+}
+/*------------------------------------------------------------------
+[Max Width: 480px]
+*/
+@media (max-width: 480px) {
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 1024px) {
+
+}
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
