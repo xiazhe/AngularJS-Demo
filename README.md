@@ -2,30 +2,30 @@
 A AngularJS Case structure Demo
 
 
-        Angular-Demo
-          \images
-          \scripts
-              \controllers
-                  mainController.js
-              \directives
-                  event.js
-              \filters
-                  filter.js
-              \services
-                  service.js
-              \vendor
-                  jquery.js
-                  angular.js
-                  modernizr-2.6.2.min.js
-              app.js
-              routing.js
-          \styles
-              app.css
-              layout.css
-              reset.css
-              responsive.css
-          \templates
-              login.html
-              dashboard.html
-          index.html
+Angular-Demo
+  \images<br> 
+  \scripts\<br> 
+      \controllers\<br> 
+          mainController.js\<br> 
+      \directives\<br> 
+          event.js\<br> 
+      \filters\<br> 
+          filter.js\<br> 
+      \services\<br> 
+          service.js\<br> 
+      \vendor\<br> 
+          jquery.js\<br> 
+          angular.js\<br> 
+          modernizr-2.6.2.min.js\<br> 
+      app.js\<br> 
+      routing.js\<br> 
+  \styles\<br> 
+      app.css\<br> 
+      layout.css\<br> 
+      reset.css\<br> 
+      responsive.css\<br> 
+  \templates\<br> 
+      login.html\<br> 
+      dashboard.html\<br> 
+  index.html\<br> 
 
