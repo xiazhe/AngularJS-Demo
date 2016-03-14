@@ -3,7 +3,7 @@ A AngularJS Case structure Demo
 
 
 Angular-Demo
-  \images<br> 
+  \images\<br> 
   \scripts\<br> 
       \controllers\<br> 
           mainController.js\<br> 
