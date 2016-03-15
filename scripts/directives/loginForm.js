@@ -1,7 +1,7 @@
 /**
  * directive sample
  */
-GLGApp.directive('loginForm', function(){
+app.directive('loginForm', function(){
     return {
         scope: {
 
@@ -13,7 +13,7 @@ GLGApp.directive('loginForm', function(){
     }
 });
 
-GLGApp.controller('LoginController', function($scope){
+app.controller('LoginController', function($scope){
     $scope.login = function(){
 
     }
