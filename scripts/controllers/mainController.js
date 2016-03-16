@@ -1,7 +1,8 @@
-/**
- * Created by Administrator on 2015/3/24.
- */
+app.controller('MainController', mainController);
 
-app.controller('MainController', function($scope){
+function mainController($scope){
 
-});
+
+}
+
+mainController.$inject = ['$scope'];
