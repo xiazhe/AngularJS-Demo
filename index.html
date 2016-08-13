@@ -1,8 +1,10 @@
-<!DOCTYPE html >
+﻿<!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" ng-app="app"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" ng-app="app"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9" ng-app="app"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" ng-app="app"> <!--<![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" ng-app="app">
+ <!--<![endif]-->
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -30,41 +32,39 @@
 
 </head>
 <body ng-controller="MainController">
-<header>
-    <h1>Angualr APP demo</h1>
-</header>
-<div id="wrapper">
-    <div ui-view="wrapper">
+    <header>
+        <h1>Angualr APP demo</h1>
+    </header>
+    <div id="wrapper">
+        <div ui-view="wrapper">
 
 
+        </div>
     </div>
-</div>
-<footer></footer>
+    <footer></footer>
 
 
 
-<!-- angular libs -->
-<script type="text/javascript" src="scripts/vendor/angular/angular.js"></script>
-<script type="text/javascript" src="scripts/vendor/angular/angular-ui-router.js"></script>
+    <!-- angular libs -->
+    <script type="text/javascript" src="scripts/vendor/angular/angular.js"></script>
+    <script type="text/javascript" src="scripts/vendor/angular/angular-ui-router.js"></script>
 
-<!-- ng module -->
-<script type="text/javascript" src="scripts/app.js"></script>
+    <!-- ng module -->
+    <script type="text/javascript" src="scripts/app.js"></script>
 
-<!-- routing -->
-<script src="scripts/routing.js"></script>
+    <!-- routing -->
+    <script src="scripts/routing.js"></script>
 
-<!-- ng services -->
+    <!-- ng services -->
+    <!-- ng controllers -->
+    <script type="text/javascript" src="scripts/controllers/maincontroller.js"></script>
+    <script type="text/javascript" src="scripts/controllers/auth/logincontroller.js"></script>
 
-<!-- ng controllers -->
-<script type="text/javascript" src="scripts/controllers/maincontroller.js"></script>
-<script type="text/javascript" src="scripts/controllers/auth/logincontroller.js"></script>
-
-<script type="text/javascript" src="scripts/controllers/main/dashboardcontroller.js"></script>
+    <script type="text/javascript" src="scripts/controllers/main/dashboardcontroller.js"></script>
 
 
-<!-- ng filters -->
-
-<!-- ng directives -->
+    <!-- ng filters -->
+    <!-- ng directives -->
 
 
 </body>
