@@ -6,9 +6,9 @@ A AngularJS Case structure Demo
      \images
      \scripts
           \controllers
-          mainController.js
+              mainController.js
           \directives
-                 event.js
+              event.js
           \filters
               filter.js
           \services
@@ -28,4 +28,61 @@ A AngularJS Case structure Demo
           login.html
           dashboard.html
       index.html
-    
+
+
+
+    Demo2 功能分类:
+    \images
+    \scripts
+        \core
+        \dashboard
+        \login
+            login.html
+            loginController.js
+            loginServices.js
+            logout.html
+            logoutController.js
+            logoutServices.js
+        \register
+            reg.html
+            regController.js
+            regServices.js
+        \user
+
+        \common    //common module
+        \utils     //directive
+    \libs
+    \styles
+    index.html
+
+    Demo3 业务模块分类:
+    \images
+        \scripts
+            \core
+            \dashboard
+            \auth
+                \login
+                    login.html
+                    loginController.js
+                    loginServices.js
+                \reg
+                    reg.html
+                    regController.js
+                    regServices.js
+                $module.js
+            \permission
+                \user
+                    user.html
+                    userController.js
+                    userServices.js
+                \role
+                    role.html
+                    roleController.js
+                    roleServices.js
+                $module.js
+
+            \common    //common module
+            \utils     //directive
+        \libs
+        \styles
+        index.html
